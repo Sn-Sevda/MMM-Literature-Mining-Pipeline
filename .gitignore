@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# API keys
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Logs and checkpoints
+*.log
+debug_log.txt
+checkpoint.json
+checkpoint.txt
+
+# Large files
+*.pdf
+*.zip
